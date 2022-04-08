@@ -17,6 +17,7 @@ public class FloorController : MonoBehaviour
     {
         // Spin the object around the target at 20 degrees/second.
         //transform.RotateAround(target.transform.position, Vector3.up, 20 * Time.deltaTime);
+        //how do i read input
 
         //transform.Rotate
     }
