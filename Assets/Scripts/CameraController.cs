@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
     private GameObject player;
     private Vector3 offset;
     // Maximum angle to tilt the camera to fake the level tilting
-    private float boardTiltMax = 15f; 
+    public float boardTiltMax = 15f; 
     private Vector3 desiredPosition;
     private GameObject desiredPositionObject;
 
