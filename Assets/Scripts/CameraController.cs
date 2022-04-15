@@ -86,6 +86,7 @@ public class CameraController : MonoBehaviour
 
     private void CenterCameraOnPlayer()
     {
+        //add credit
         Plane plane = new Plane(transform.forward, player.transform.position);
         Ray ray = GetComponent<Camera>().ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2, 0.0f));
         float distance;
