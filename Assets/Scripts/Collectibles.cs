@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Collectibles : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // When the player touches the collectibles it will disappear
     private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 
 }

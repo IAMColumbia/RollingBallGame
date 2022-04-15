@@ -4,7 +4,19 @@ using UnityEngine;
 
 public class FloorController : MonoBehaviour
 {
-    public GameObject target;
+    public GameObject camera;
+    public float speed;
+
+    private void FixedUpdate()
+    {
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        movementDirection = camera.transform.TransformDirection(movementDirection);
+
+        GetComponent<Rigidbody>().AddForce(movementDirection * speed * Time.deltaTime);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -20,5 +32,15 @@ public class FloorController : MonoBehaviour
         //how do i read input
 
         //transform.Rotate
+
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //float verticalInput = Input.GetAxis("Vertical");
+
+        //Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        //movementDirection.Normalize();
+
+        //transform.Translate(movementDirection * speed * Time.deltaTime, Space.World);   
+        
+
     }
 }
