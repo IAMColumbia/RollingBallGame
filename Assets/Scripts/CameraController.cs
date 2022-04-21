@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     private GameObject player;
-    private Vector3 offset;
+    public Vector3 offset;
     // Maximum angle to tilt the camera to fake the level tilting
     public float boardTiltMax = 15f; 
     private Vector3 desiredPosition;
@@ -21,7 +21,7 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         //initialization
-        offset = transform.position;
+        //offset = transform.position;
         desiredPosition = transform.position;
         desiredPositionObject = new GameObject("cameraFollow");
         DontDestroyOnLoad(desiredPositionObject);

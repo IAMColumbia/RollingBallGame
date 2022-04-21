@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
