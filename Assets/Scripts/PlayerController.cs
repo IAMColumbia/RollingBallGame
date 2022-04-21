@@ -4,38 +4,44 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float moveForce;
+    public GameObject camera;
+    public float speed;
 
-    Rigidbody rb;
+    private void FixedUpdate()
+    {
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-    bool moveRight;
-    bool moveLeft;
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        movementDirection = camera.transform.TransformDirection(movementDirection);
+
+        GetComponent<Rigidbody>().AddForce(movementDirection * speed * Time.deltaTime);
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        //The player gets to move when the Input is being pressed
-        moveLeft = Input.GetKey(KeyCode.A);
-        moveRight = Input.GetKey(KeyCode.D);
-    }
+        // Spin the object around the target at 20 degrees/second.
+        //transform.RotateAround(target.transform.position, Vector3.up, 20 * Time.deltaTime);
+        //how do i read input
 
-    private void FixedUpdate()
-    {
-        if (moveLeft)
-        {
-            rb.AddForce(Vector3.left * moveForce, ForceMode.Impulse);
-        }
-        if (moveRight)
-        {
-            rb.AddForce(Vector3.right * moveForce, ForceMode.Impulse);
-        }
-    }
+        //transform.Rotate
 
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //float verticalInput = Input.GetAxis("Vertical");
+
+        //Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        //movementDirection.Normalize();
+
+        //transform.Translate(movementDirection * speed * Time.deltaTime, Space.World);   
+
+
+    }
 
 }
