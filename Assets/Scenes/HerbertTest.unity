@@ -476,6 +476,7 @@ GameObject:
   - component: {fileID: 1142534935}
   - component: {fileID: 1142534934}
   - component: {fileID: 1142534933}
+  - component: {fileID: 1142534936}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: Coin
@@ -560,6 +561,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142534931}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1142534936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142534931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380070a98f0e69246a6da39490dfc28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 1
+  speedZ: 0
 --- !u!1 &1610042599
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +702,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 380070a98f0e69246a6da39490dfc28f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 0
+  speedZ: 0
 --- !u!1 &1712828024
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +717,7 @@ GameObject:
   - component: {fileID: 1712828028}
   - component: {fileID: 1712828027}
   - component: {fileID: 1712828026}
+  - component: {fileID: 1712828029}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -782,6 +802,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712828024}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1712828029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712828024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380070a98f0e69246a6da39490dfc28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedX: 0
+  speedY: 1
+  speedZ: 0
 --- !u!1 &1936742416
 GameObject:
   m_ObjectHideFlags: 0
