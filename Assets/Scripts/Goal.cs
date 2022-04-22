@@ -6,8 +6,9 @@ public class Goal : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.GetContact(0).normal.x <-.5)
+        if (collision.gameObject.name == "Player")
         {
+            gameObject.SetActive(false);
             Debug.Log("Goal hit!");
         }
     }
