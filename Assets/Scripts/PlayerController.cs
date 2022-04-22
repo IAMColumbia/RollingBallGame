@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
         movementDirection = camera.transform.TransformDirection(movementDirection);
 
-        GetComponent<Rigidbody>().AddForce(movementDirection * speed * Time.deltaTime);
+        GetComponent<Rigidbody>().AddForce(movementDirection * speed * Time.deltaTime, ForceMode.VelocityChange);
     }
 
     // Start is called before the first frame update
