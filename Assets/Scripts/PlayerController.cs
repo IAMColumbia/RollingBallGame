@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject camera;
     public float speed;
+    public Vector3 startingPoint;
 
     private void FixedUpdate()
     {
@@ -17,6 +18,11 @@ public class PlayerController : MonoBehaviour
         movementDirection = camera.transform.TransformDirection(movementDirection);
 
         GetComponent<Rigidbody>().AddForce(movementDirection * speed * Time.deltaTime, ForceMode.VelocityChange);
+
+        if (transform.position.y < -15)
+        {
+            transform.position = startingPoint;
+        }
     }
 
     // Start is called before the first frame update
