@@ -997,7 +997,7 @@ MonoBehaviour:
   speedX: 0
   speedY: 1
   speedZ: 0
-  scoreText: {fileID: 0}
+  scoreText: {fileID: 1012701930}
   collectionSound: {fileID: 0}
 --- !u!1 &1731157911
 GameObject:
