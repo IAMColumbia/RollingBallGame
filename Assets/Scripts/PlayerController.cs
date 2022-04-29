@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public GameObject camera;
     public float speed;
     public Vector3 startingPoint;
+    private Rigidbody rb;
 
     private void FixedUpdate()
     {
@@ -17,7 +18,7 @@ public class PlayerController : MonoBehaviour
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
         movementDirection = camera.transform.TransformDirection(movementDirection);
 
-        GetComponent<Rigidbody>().AddForce(movementDirection * speed * Time.deltaTime, ForceMode.VelocityChange);
+        rb.AddForce(movementDirection * speed * Time.deltaTime, ForceMode.VelocityChange);
 
         if (transform.position.y < -15)
         {
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
