@@ -27,7 +27,7 @@ public class Collectibles : MonoBehaviour
             Destroy(other.gameObject);
             coins++;
             Debug.Log("Coins" + coins);
-            scoreText.text = ("Coins" + coins);
+            scoreText.text = ("Score" + coins);
             collectionSound.Play();
         }
     }
