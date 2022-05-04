@@ -10,6 +10,8 @@ public class MainMenu : MonoBehaviour
 
     public GameObject optionsScreen;
 
+    public GameObject titleScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,11 +32,13 @@ public class MainMenu : MonoBehaviour
     public void OpenOptions()
     {
         optionsScreen.SetActive(true);
+        titleScreen.SetActive(false);
     }
 
     public void CloseOptions()
     {
         optionsScreen.SetActive(false);
+        titleScreen.SetActive(true);
 
     }
 
