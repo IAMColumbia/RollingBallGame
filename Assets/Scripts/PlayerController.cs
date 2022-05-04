@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
         movementDirection = camera.transform.TransformDirection(movementDirection);
+        movementDirection.y = 0;
 
         rb.AddForce(movementDirection * speed * Time.deltaTime, ForceMode.VelocityChange);
 
