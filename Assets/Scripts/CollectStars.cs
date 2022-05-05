@@ -8,10 +8,12 @@ public class CollectStars : MonoBehaviour
     //Got these examples from https://www.youtube.com/watch?v=Gs5QxGrRzNQ
     int coins = 0;
 
-    
 
-    //Shoes text of the score
-    [SerializeField] Text scoreText;
+
+    //Shows text of the score
+    //[SerializeField] Text scoreText;
+    public TMPro.TextMeshProUGUI scoreText;
+
     //Plays sound of the coin being collected
     AudioSource collectionSoundAudioSource;
 
@@ -28,7 +30,7 @@ public class CollectStars : MonoBehaviour
             Destroy(other.gameObject);
             coins++;
             Debug.Log("Coins" + coins);
-            scoreText.text = ("Score" + coins);
+            scoreText.text = ("Score: " + coins);
             collectionSoundAudioSource.Play();
         }
     }
