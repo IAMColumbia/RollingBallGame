@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7242942993627461840}
   - component: {fileID: 7242942993627461847}
   - component: {fileID: 7242942993627461846}
-  - component: {fileID: 7242942993627461841}
+  - component: {fileID: 4069604349880808335}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Star
   m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,7 +97,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7242942993627461841
+--- !u!114 &4069604349880808335
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7242942993627461844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 380070a98f0e69246a6da39490dfc28f, type: 3}
+  m_Script: {fileID: 11500000, guid: a7a8f679092324c44aefa3358277c503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speedX: 0
