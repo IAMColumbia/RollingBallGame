@@ -12,16 +12,25 @@ public class MainMenu : MonoBehaviour
 
     public GameObject titleScreen;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string nextLevel;
 
-    // Update is called once per frame
+    public GameObject pauseMenuUI;
+
+    public static bool IsGamePaused = false;
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (IsGamePaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+            //PauseGame();
+        }
     }
 
     public void StartGame()
@@ -46,4 +55,24 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void ResumeGame()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        IsGamePaused = false;
+    }
+    public void PauseGame()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        IsGamePaused = true;
+    }
+
+    public void GoToLevel()
+    {
+        SceneManager.LoadScene(nextLevel);
+    }
+
+   
 }
