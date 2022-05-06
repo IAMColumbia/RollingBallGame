@@ -180,10 +180,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gavin Wade\nHannah Stern\nHerbert Chillis\n\nLevel Designer: Gavin Wade\nLead
-    Programmer: Hannah Stern\nAdditional Programming: Herbert Chillis & Gavin Wade\nEnviormental
-    Art: \nCharacter Art: \nAdditional 3D Art: \nSound Design: \n\r\nAdditional Art
-    Assets Created By: \nMusic & SFX: "
+  m_text: "Level Designer: Gavin Wade\nLead Programmer: Hannah Stern\nAdditional
+    Programming: Herbert Chillis & Gavin Wade\nEnviormental Art: \nCharacter Art:
+    \nAdditional 3D Art: \nSound Design: \n\r\nAdditional Art Assets Created By:
+    \nMusic & SFX: "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45716ccda44e47543913e2aacd8e4c6d, type: 2}
   m_sharedMaterial: {fileID: -5952561536566055072, guid: 45716ccda44e47543913e2aacd8e4c6d, type: 2}
