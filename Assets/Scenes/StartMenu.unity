@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128.61151, y: -54.975666}
-  m_SizeDelta: {x: 967.2626, y: 667.8231}
+  m_AnchoredPosition: {x: -125.82, y: -123.48}
+  m_SizeDelta: {x: 1291.6, y: 763.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108993971
 MonoBehaviour:
@@ -180,9 +180,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gavin Wade\nHannah Stern\nHerbert Chillis\n\nLead Designer: \nLead Programmer:
-    \r\nAdditional Programming: \nEnviormental Art: \nCharacter Art: \nAdditional
-    3D Art: \nSound Design: \n\r\nAdditional Art Assets Created By: \nMusic & SFX: "
+  m_text: "Gavin Wade\nHannah Stern\nHerbert Chillis\n\nLevel Designer: Gavin Wade\nLead
+    Programmer: Hannah Stern\nAdditional Programming: Herbert Chillis & Gavin Wade\nEnviormental
+    Art: \nCharacter Art: \nAdditional 3D Art: \nSound Design: \n\r\nAdditional Art
+    Assets Created By: \nMusic & SFX: "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45716ccda44e47543913e2aacd8e4c6d, type: 2}
   m_sharedMaterial: {fileID: -5952561536566055072, guid: 45716ccda44e47543913e2aacd8e4c6d, type: 2}
@@ -209,13 +210,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -245,7 +246,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -3.6779785, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.1670835, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1284,7 +1285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1246747197
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1481,7 +1482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1549451871
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1502,8 +1503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960, y: 540}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 960, y: 720}
+  m_SizeDelta: {x: 1920, y: 1440}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549451872
 MonoBehaviour:
