@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/TestLevels/GavinTest.unity
     guid: bf03b60fc6442f3419c1e6b7130dc242
@@ -17,10 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: 9de40c46932dfea40816b0ea04d4ad10
-  - enabled: 1
-    path: Assets/Scenes/TestLevels/HannahTest.unity
-    guid: 1340f31024a98e24681975db5ce5ae01
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Level_One.unity
     guid: 810adf918cccb4141b0eff898371ff11
+  - enabled: 1
+    path: Assets/Scenes/Level_Two.unity
+    guid: a7c378c5371a41d46ad52b055cc038c1
   m_configObjects: {}
