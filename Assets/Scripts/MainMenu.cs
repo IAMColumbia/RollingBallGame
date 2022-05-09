@@ -7,10 +7,15 @@ public class MainMenu : MonoBehaviour
 {
 
     public string firstLevel;
+    public string secondLevel;
+    public string thirdLevel;
 
     public GameObject optionsScreen;
 
     public GameObject titleScreen;
+
+    public GameObject levelScreen;
+
 
     public string nextLevel;
 
@@ -51,6 +56,19 @@ public class MainMenu : MonoBehaviour
 
     }
 
+    public void OpenLevels()
+    {
+        levelScreen.SetActive(true);
+        titleScreen.SetActive(false);
+    }
+
+    public void CloseLevels()
+    {
+        levelScreen.SetActive(false);
+        titleScreen.SetActive(true);
+
+    }
+
     public void QuitGame()
     {
         Application.Quit();
@@ -74,5 +92,20 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(nextLevel);
     }
 
-   
+    public void GoToLevelOne()
+    {
+        SceneManager.LoadScene(firstLevel);
+    }
+    public void GoToLevelTwo()
+    {
+        SceneManager.LoadScene(secondLevel);
+    }
+    public void GoToLevelThree()
+    {
+        SceneManager.LoadScene(thirdLevel);
+    }
+
+
+
+
 }
