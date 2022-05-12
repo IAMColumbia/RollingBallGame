@@ -11,10 +11,14 @@ public class LevelController : MonoBehaviour
 
     public GameObject winScreen;
 
+    //public AudioSource winSoundAudioSource;
+
+
     // Start is called before the first frame update
     void Start()
     {
         goals = FindObjectsOfType<Goal>();
+        //winSoundAudioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,6 +27,7 @@ public class LevelController : MonoBehaviour
         if (GoalIsReached())
         {
             OpenWinScreen();
+            //winSoundAudioSource.Play();
         }
     }
 
@@ -47,5 +52,6 @@ public class LevelController : MonoBehaviour
     {
         winScreen.SetActive(true);
         
+
     }
 }

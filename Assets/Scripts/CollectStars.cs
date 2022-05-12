@@ -13,6 +13,7 @@ public class CollectStars : MonoBehaviour
     //Shows text of the score
     //[SerializeField] Text scoreText;
     public TMPro.TextMeshProUGUI scoreText;
+    public TMPro.TextMeshProUGUI scoreText2;
 
     //Plays sound of the coin being collected
     AudioSource collectionSoundAudioSource;
@@ -31,6 +32,7 @@ public class CollectStars : MonoBehaviour
             coins++;
             Debug.Log("Coins" + coins);
             scoreText.text = ("Score: " + coins);
+            scoreText2.text = ("Score: " + coins);
             collectionSoundAudioSource.Play();
         }
     }

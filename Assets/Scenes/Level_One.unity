@@ -915,6 +915,10 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 190794452}
+    - target: {fileID: 297635113825659348, guid: c7812d21c69f5154488fb785289276c5, type: 3}
+      propertyPath: scoreText2
+      value: 
+      objectReference: {fileID: 1778255210}
     - target: {fileID: 731081779843808946, guid: c7812d21c69f5154488fb785289276c5, type: 3}
       propertyPath: m_Name
       value: CameraHolder
@@ -2161,6 +2165,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b5971612464fd44080678db185383d3, type: 3}
+--- !u!114 &1778255210 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3268806043473219345, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
+  m_PrefabInstance: {fileID: 7748183706289319119}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1829540918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7242942993627461845, guid: 2b5971612464fd44080678db185383d3, type: 3}
@@ -2682,6 +2697,10 @@ PrefabInstance:
       propertyPath: nextLevelName
       value: Level_Two
       objectReference: {fileID: 0}
+    - target: {fileID: 2081416845172783274, guid: 4ca52a7e6df005748941c4bbf9cb7255, type: 3}
+      propertyPath: winSoundAudioSource
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2081416845172783275, guid: 4ca52a7e6df005748941c4bbf9cb7255, type: 3}
       propertyPath: m_Name
       value: SceneManager
@@ -2695,6 +2714,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 442744241804091538, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 494366716873572005, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 378.7428
+      objectReference: {fileID: 0}
+    - target: {fileID: 494366716873572005, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000015259
+      objectReference: {fileID: 0}
     - target: {fileID: 7748183705445378850, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2779,9 +2810,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7748183705445378852, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7748183705445378856, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
       propertyPath: m_Name
       value: LevelWinScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748183705445378856, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
