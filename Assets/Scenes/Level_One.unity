@@ -1350,6 +1350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b5971612464fd44080678db185383d3, type: 3}
+--- !u!1 &844269543 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7748183705445378856, guid: bb68e884e6fcaf2439b8ce249cd4d8bc, type: 3}
+  m_PrefabInstance: {fileID: 7748183706289319119}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &881253078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7242942993627461845, guid: 2b5971612464fd44080678db185383d3, type: 3}
@@ -2669,6 +2674,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2081416845172783274, guid: 4ca52a7e6df005748941c4bbf9cb7255, type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 844269543}
     - target: {fileID: 2081416845172783274, guid: 4ca52a7e6df005748941c4bbf9cb7255, type: 3}
       propertyPath: nextLevelName
       value: Level_Two
