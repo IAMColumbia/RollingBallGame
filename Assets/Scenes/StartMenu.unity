@@ -1719,9 +1719,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 173368744}
     m_Modifications:
+    - target: {fileID: 4444099772805870494, guid: 7b31a758fb2d80a40bc414948290314c, type: 3}
+      propertyPath: m_Name
+      value: LevelThree
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444099773963951017, guid: 7b31a758fb2d80a40bc414948290314c, type: 3}
+      propertyPath: m_Name
+      value: LevelTwo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444099773963951019, guid: 7b31a758fb2d80a40bc414948290314c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b1163cf68105d5c40b09ef202e215013, type: 3}
     - target: {fileID: 4444099774416911563, guid: 7b31a758fb2d80a40bc414948290314c, type: 3}
       propertyPath: m_Name
       value: LevelSelectScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444099774416911563, guid: 7b31a758fb2d80a40bc414948290314c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4444099774416911566, guid: 7b31a758fb2d80a40bc414948290314c, type: 3}
       propertyPath: m_Pivot.x

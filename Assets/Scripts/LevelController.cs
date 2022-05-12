@@ -9,6 +9,8 @@ public class LevelController : MonoBehaviour
 
     Goal[] goals;
 
+    public GameObject winScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,7 @@ public class LevelController : MonoBehaviour
     {
         if (GoalIsReached())
         {
-            GoToNextLevel();
+            OpenWinScreen();
         }
     }
 
@@ -39,5 +41,11 @@ public class LevelController : MonoBehaviour
     void GoToNextLevel()
     {
         SceneManager.LoadScene(nextLevelName);
+    }
+
+    void OpenWinScreen()
+    {
+        winScreen.SetActive(true);
+        
     }
 }
