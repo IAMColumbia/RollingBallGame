@@ -5,9 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/TestLevels/GavinTest.unity
     guid: bf03b60fc6442f3419c1e6b7130dc242
@@ -17,9 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: 9de40c46932dfea40816b0ea04d4ad10
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Level_Three.unity
+    guid: 0ca9ee4764d4b6b458fad3540d24db01
   - enabled: 1
     path: Assets/Scenes/Level_One.unity
     guid: 810adf918cccb4141b0eff898371ff11
