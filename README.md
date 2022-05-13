@@ -26,3 +26,5 @@ SFX: Epic Sounds and FX
 Planet Graphics: Carlos Wilkes
 
 Font and UI Sprites: 3d.rina
+
+Itch.oi page: https://hannahkers.itch.io/galaxy-roll
